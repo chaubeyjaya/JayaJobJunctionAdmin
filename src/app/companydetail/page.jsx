@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
     <AdminNavbar/>
-<ShowCompany/>
+    <ShowCompany/>
     </>
   )
 }

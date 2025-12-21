@@ -34,7 +34,7 @@ const AdminNavbar = () => {
             <div className="hidden md:block ml-10">
               <div className="flex space-x-4">
                 <Link
-                  href="/admin/companies"
+                  href="/companydetail"
                   className={`px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors ${
                     isActive('/admin/companies') ? 'bg-gray-900 text-white' : 'text-gray-300'
                   }`}
@@ -42,12 +42,12 @@ const AdminNavbar = () => {
                   Companies
                 </Link>
                 <Link
-                  href="/admin/applicants"
+                  href="/jobapplication"
                   className={`px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors ${
-                    isActive('/admin/applicants') ? 'bg-gray-900 text-white' : 'text-gray-300'
+                    isActive('/jobapplication') ? 'bg-gray-900 text-white' : 'text-gray-300'
                   }`}
                 >
-                  Applicants
+                Job
                 </Link>
                 <Link
                   href="/admin/history"
