@@ -8,7 +8,7 @@ export default function Home() {
   return (
  <>
  <Navbar/>
- <h1 className="text-4xl text-center ">Admin start from here</h1>
+
 <AdminDashboard/>
  </>
   );
