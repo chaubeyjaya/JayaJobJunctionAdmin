@@ -50,12 +50,12 @@ const AdminNavbar = () => {
                 Job
                 </Link>
                 <Link
-                  href="/admin/history"
+                  href="/resourcespage"
                   className={`px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors ${
-                    isActive('/admin/history') ? 'bg-gray-900 text-white' : 'text-gray-300'
+                    isActive('/resourcespage') ? 'bg-gray-900 text-white' : 'text-gray-300'
                   }`}
                 >
-                  History
+                  Resource
                 </Link>
               </div>
             </div>
